@@ -4,7 +4,6 @@ const Main: React.FC = () => {
   return (
     <div>
       <CodeCell />
-      <CodeCell />
     </div>
   );
 };
