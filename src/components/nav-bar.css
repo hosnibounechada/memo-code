@@ -1,0 +1,16 @@
+.auth-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  overflow: hidden;
+  background-color: red;
+}
+
+.auth-bar a {
+  float: right;
+}
+
+.auth-bar .logo {
+  float: left;
+}
