@@ -1,16 +1,54 @@
-.auth-bar {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 50;
   overflow: hidden;
-  background-color: red;
+  z-index: 3;
 }
 
-.auth-bar a {
-  float: right;
+.nav-div {
+  height: 3rem;
 }
 
-.auth-bar .logo {
-  float: left;
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav li:hover {
+  color: gainsboro;
+}
+
+.nav li.active {
+  color: gainsboro;
 }
