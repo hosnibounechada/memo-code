@@ -1,7 +1,8 @@
+import "./main-page.css";
 import CellList from "./cell-list";
 const Main: React.FC = () => {
   return (
-    <div>
+    <div className="main-page">
       <CellList />
     </div>
   );
