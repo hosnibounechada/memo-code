@@ -1,0 +1,6 @@
+.side-bar {
+  width: 250px;
+  background-color: red;
+  height: calc(100vh - 3rem);
+  overflow-y: scroll;
+}
